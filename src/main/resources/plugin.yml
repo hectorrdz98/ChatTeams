@@ -1,0 +1,17 @@
+name: ChatTeams
+version: ${project.version}
+main: com.sasukector.chatteams.ChatTeams
+api-version: 1.17
+authors: [ Sasukector ]
+description: Plugin to display in chat teams with prefix
+website: https://sasukector.dev
+commands:
+  checkTeams:
+    description: Command to verify player teams
+    usage: /checkTeams
+  addTeam:
+    description: Command to join a team
+    usage: /addTeam [teamName]
+  removeTeam:
+    description: Command to remove from a team
+    usage: /removeTeam
